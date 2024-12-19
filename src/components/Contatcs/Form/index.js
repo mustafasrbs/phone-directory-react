@@ -10,7 +10,9 @@ function Form() {
         <div>
             <input name='phone_number' placeholder='Phone Number' />
         </div>
-
+        <div>
+            <button>Add</button>
+        </div>
     </div>
   )
 }
