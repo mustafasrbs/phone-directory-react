@@ -1,8 +1,12 @@
 import React from 'react'
-
+import List from './List'
+import Form from './Form'
 function Contatcs() {
   return (
-    <div>Contatcs</div>
+    <div>
+        <List/>
+        <Form/>
+    </div>
   )
 }
 

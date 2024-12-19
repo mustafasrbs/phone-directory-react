@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Contatcs from './components/Contatcs';
 function App() {
   return (
     <div className="App">
-      <h1>Hello, React!</h1>
+      <Contatcs />
     </div>
   );
 }
