@@ -7,7 +7,7 @@ function Contacts() {
 
   useEffect( () =>{
     console.log(contacts)
-  },[contatcs])  
+  },[contacts])  
   return (
     <div>
         <List/>
