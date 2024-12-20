@@ -18,11 +18,17 @@ const onSubmit = (e) => {
   return (
     <form onSubmit={onSubmit}>
         <div>
-            <input name='fullname' placeholder='Full Name' onChange={onChangeInput} />
+            <input name='fullname' 
+            placeholder='Full Name' 
+            value={form.fullname}
+            onChange={onChangeInput} />
         </div> 
         
         <div>
-            <input name='phone_number' placeholder='Phone Number' onChange={onChangeInput} />
+            <input name='phone_number' 
+            placeholder='Phone Number' 
+            value={form.phone_number}
+            onChange={onChangeInput} />
         </div>
         <div>
             <button>Add</button>
