@@ -11,7 +11,7 @@ const onSubmit = (e) => {
         return false;
     }
     addContacts([...contacts, form])
-    console.log(form)
+    setForm({fullname:"",phone_number:""})
 }
 
 
