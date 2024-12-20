@@ -10,6 +10,7 @@ const onSubmit = (e) => {
     if (form.fullname==="" || form.phone_number==="") {
         return false;
     }
+    addContatcs([form])
     console.log(form)
 }
 
