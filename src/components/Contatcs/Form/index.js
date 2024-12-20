@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-function Form() {
+function Form(addContatcs) {
 const [form, setForm] = useState({fullname:"",phone_number:""})
 const onChangeInput = (e) => {
     setForm({...form, [e.target.name]: e.target.value})
