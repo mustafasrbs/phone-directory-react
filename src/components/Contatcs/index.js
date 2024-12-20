@@ -1,14 +1,19 @@
-import {useState} from 'react'
+import {useState ,useEffect} from 'react'
 import List from './List'
 import Form from './Form'
-function Contatcs() {
-  const [contatcs, setContatcs] = useState([]);
+function Contacts() {
+  const [contacts, setContacts] = useState([]);
+
+
+  useEffect( () =>{
+    console.log(contacts)
+  },[contatcs])  
   return (
     <div>
         <List/>
-        <Form addContatcs={setContatcs}/>
+        <Form addContacts={setContacts}/>
     </div>
   )
 }
 
-export default Contatcs
+export default Contacts
