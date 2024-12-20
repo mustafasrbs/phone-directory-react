@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-function Form(addContacts) {
+function Form({addContacts,contacts}) {
 const [form, setForm] = useState({fullname:"",phone_number:""})
 const onChangeInput = (e) => {
     setForm({...form, [e.target.name]: e.target.value})
@@ -10,7 +10,7 @@ const onSubmit = (e) => {
     if (form.fullname==="" || form.phone_number==="") {
         return false;
     }
-    addContacts([form])
+    addContacts([...contacts, form])
     console.log(form)
 }
 
