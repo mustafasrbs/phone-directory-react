@@ -2,7 +2,9 @@ import React from 'react'
 
 function List({contacts}) {
   return (
+    
     <div>
+      <input placeholder='Filter contact'></input>
       <ul>
        {
         contacts.map((contact, i)=> 
