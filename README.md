@@ -3,5 +3,5 @@ Phone Directory Application, kullanıcıların rehberlerine kişi ekleyip yönet
 
 git clone https://github.com/mustafasrbs/phone-directory-react.git
 
-Projenin canlı sürümüne aşağıdaki bağlantıdan ulaşabilirsiniz:
-https://mustafasrbs.github.io/phone-directory-react
+Projenin canlı sürümüne bağlantıdan ulaşabilirsiniz:
+"homepage": "https://mustafasrbs.github.io/phone-directory-react"
