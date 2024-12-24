@@ -9,7 +9,7 @@ function Contacts() {
     console.log(contacts)
   },[contacts])  
   return (
-    <div>
+    <div id='container'>
         <List contacts={contacts}/>
         <Form addContacts={setContacts} contacts={contacts} />
     </div>

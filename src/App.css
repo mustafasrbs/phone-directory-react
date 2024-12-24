@@ -4,3 +4,8 @@
     align-items: center;
     min-height: 100vh;
 }
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
